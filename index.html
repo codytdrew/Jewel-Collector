@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collectors Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+ 
+</head>
+<body background="./assets/images/skulls.png">
+
+    <!-- There are four crystals displayed as buttons-->
+    <!-- Each crystal represents a number-->
+    <!-- The number value of these crystals are randomly generated -->
+
+<div id="top">
+    <h1>Crystals Collector!</h1>
+</div>
+
+    <div id="rules">
+        <p>You will be given a random number at the start of the game.</p><br><br>
+        <p>There are four crystals.  By clicking on a crystal you will add a specific amount of points to your total score.</p><br><br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p><br><br>
+        <p>The value of each crystal is hidden from you until you click on it.</p><br><br>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+<div class="wrapper">
+<div id="points">
+    <div id="gamescore"></div> <br>
+    <div id="total">0</div><br>
+<div>
+</div>
+</div>
+
+<div class="imgwrapper">
+<div id="jewelcase">
+    <div>
+        <img src="./assets/images/purpscurp.jpg" alt="purple crystal" class="button" id="one">
+    </div>
+    <div>
+        <img src="./assets/images/yellow-crystal.jpg" alt="yellow crystal" class="button" id="two">
+    </div>
+    <div>
+        <img src="./assets/images/blue-crystal.jpg" alt="yellow crystal" class="button" id="three">
+    </div>
+    <div>
+        <img src="./assets/images/green-crystal.jpg" alt="yellow crystal" class="button" id="four">
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>

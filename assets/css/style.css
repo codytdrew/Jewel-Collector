@@ -1,0 +1,65 @@
+#top {
+    background-color: purple;
+    margin: 10px;
+    width: 300px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: orangered;
+    padding: 30px 5px;
+    text-align: center;
+}
+.wrapper {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+#imgwrapper{
+    width: 500px;
+    height: 400px;
+}
+#rules {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    color: greenyellow;
+    background-color: teal;
+}
+#points {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 140px;
+    box-sizing: border-box;
+}
+#jewelcase {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 150px;
+    box-sizing: border-box;
+}
+#gamescore {
+    width: 175px;
+    height: 100px;
+    padding: 10px;
+    background-color: crimson;
+    margin: 0 10px 0 0;
+    font-size: 32px;
+    font-weight: bolder;
+    color: lightpink;
+}
+#total {
+    width: 75px;
+    height: 100px;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: mediumpurple;
+}
+.button {
+    display: flex;
+    width: 100px;
+    margin-right: 10px;
+    height: 100px;
+}
