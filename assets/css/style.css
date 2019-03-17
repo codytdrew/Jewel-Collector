@@ -10,7 +10,7 @@
 }
 .wrapper {
     width: 500px;
-    height: 400px;
+    height: 225px;
     padding: 10px;
 }
 #imgwrapper{
@@ -19,7 +19,7 @@
 }
 #rules {
     width: 500px;
-    height: 400px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
     color: greenyellow;
@@ -49,13 +49,32 @@
     font-weight: bolder;
     color: lightpink;
 }
+#tallys {
+    background-color: gold;
+    margin: 10px 0;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding: 10px 5px;
+    text-align: center;
+}
 #total {
     width: 75px;
     height: 100px;
     padding: 10px;
     font-size: 32px;
     font-weight: bolder;
-    background-color: mediumpurple;
+    background-color: gold;
+}
+#winningorlosing {
+    width: 75px;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: lightskyblue;
+
 }
 .button {
     display: flex;

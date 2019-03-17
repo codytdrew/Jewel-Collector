@@ -11,9 +11,7 @@
 </head>
 <body background="./assets/images/skulls.png">
 
-    <!-- There are four crystals displayed as buttons-->
-    <!-- Each crystal represents a number-->
-    <!-- The number value of these crystals are randomly generated -->
+<!-- Did I do lay out my flexbox ok?  Also, did my wrappers seem correct?-->
 
 <div id="top">
     <h1>Crystals Collector!</h1>
@@ -29,8 +27,13 @@
 
 <div class="wrapper">
 <div id="points">
-    <div id="gamescore"></div> <br>
-    <div id="total">0</div><br>
+    <div id="gamescore"></div> 
+    <div id="winningorlosing">
+            <p style="color:black;">Wins:</p>
+            <p id="win-text">0</p>
+            <p style="color:black;">Losses:</p>
+            <p id="loss-text">0</p>
+    </div>
 <div>
 </div>
 </div>
@@ -51,6 +54,13 @@
     </div>
     </div>
 </div>
+</div>
+
+<div class="wrapper">
+    <div id="tallys">
+    <h1>Your Total Score</h1>
+</div>
+    <div id="total">0</div>
 </div>
 
 

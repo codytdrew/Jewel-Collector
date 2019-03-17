@@ -29,6 +29,7 @@
 
 
     $('.button').on("click", function (){
+        
         var crystal = parseInt($(this).attr('value'));
         console.log(crystal);
 
@@ -39,15 +40,22 @@
         // winning condition code
         alert("You Win!");
         reset();
-        
+        win++;
+        document.getElementById('win-text').textContent = win;
+
         } else if (crystalTotal > gameNumber) {
         // losing condition code
         alert("You Lose! :(");
         reset();
+        loss++;
+
+    document.getElementById('loss-text').textContent = loss;
         }
-    });
+    })
+
+
     function reset(){
-        gameNumber =  Math.floor(Math.random() * 102 + 19);
+    gameNumber =  Math.floor(Math.random() * 102 + 19);
     console.log(gameNumber);
     $('#gamescore').text(gameNumber);
 
@@ -64,6 +72,9 @@
 
     }
     
+
+    // IGNORE EVERYTHING BELOW THIS LINE
+
     // var crystalArray = [];
 
     // for (let i = 0; i < 4; i++) {
