@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # unit-4-game
 
 ### Overview
@@ -12,3 +13,6 @@ The Object of this game is to match your given score (displayed) with the score 
 * Make sure you keep track of your values!
 
 **Good Luck!**
+=======
+# Jewel Collector
+>>>>>>> 07e58a44a24b4007edb1040ddd2c3b4ec397cabd
